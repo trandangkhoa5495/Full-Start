@@ -1,0 +1,28 @@
+header {padding: 0 100px;  
+        display: flex;
+        align-items: center;
+        background-color: #A51419;
+        justify-content: space-between;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px ;
+        font-family:'Times New Roman';}
+
+.left a { padding: 5px;
+        font-size: 10px;
+        color: beige;
+        text-decoration: none;
+      }
+
+.right a { padding: 5px;
+        font-size: 10px;
+        color: beige;
+        text-decoration: none;
+        }
+
+.bugera { font-size: 15px;
+          color: yellow;
+        }
+
+
+
+        
