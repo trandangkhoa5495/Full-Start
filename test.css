@@ -1,0 +1,28 @@
+#paren {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background-color: #be1818;
+}
+
+#child {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 300px;
+    color: #e0a912;
+    font-family: sans-serif;
+    animation-name: test;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes test {
+    from { left: 0%;} to {left: 100%;}
+}
