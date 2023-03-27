@@ -1,0 +1,319 @@
+body {
+    margin: auto;
+    font-family:'Times New Roman';
+    position: relative;
+    width: 800px;
+    height: 1100px;
+}
+
+li {list-style: none;}
+
+.logo {
+    width: 250px;
+    height: 250px;
+    object-fit: contain ;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    box-shadow: -10px -10px 0px #454B0F;
+}
+
+div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+/* phần tên */
+h1 {
+    color: #454B0F;
+    font-size: 35px;
+    position: absolute;
+    top: 10px;
+    left: 370px;
+}
+
+h3 {
+    position: absolute;
+    top: 55px;
+    left: 371px;
+}
+
+/* phần thông tin liên hệ */
+.contact {
+    width: 400px;
+    height: 150px;
+    list-style: none;
+    position: absolute;
+    top: 100px;
+    left: 370px;
+}
+.contact ul {
+    position: relative;
+    padding: 0px;
+}
+.contact li {
+    padding: 5px;
+}
+#phone {
+    position: absolute;
+    top: 0px;
+    left: 170px;
+}
+#email {
+    position: absolute;
+    top: 30px;
+    left: 170px;
+}
+.contact h4 {
+    background-color: rgb(228, 222, 198);
+    text-align: center;
+    margin: 15px;
+    margin-left: 0px;
+    width: 400px;
+    height: 20px;
+}
+
+/* phần mục tiêu công việc */
+.major {
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    top: 270px;
+    left: 370px;
+}
+.major h4 {
+    background-color: rgb(228, 222, 198);
+    text-align: center;
+
+}
+
+/* phần trình độ học vấn */
+.education {
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    top: 440px;
+    left: 370px;
+}
+.education ul {
+    padding: 0px;
+}
+.education h4 {
+    background-color: rgb(228, 222, 198);
+    text-align: center
+}
+
+/* phần kinh nghiệm làm việc */
+.experience {
+
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    top: 610px;
+    left: 370px;
+}
+.experience ul {
+    padding: 0px;
+}
+.experience h4 {
+    background-color: rgb(228, 222, 198);
+    text-align: center;
+}
+/* Phần hoạt động */
+.work {
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    top: 800px;
+    left: 370px;
+}
+.work h4 {
+    background-color: rgb(228, 222, 198);
+    text-align: center;
+}
+
+/* phần dự án tham gia */
+.project {
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    top: 900px;
+    left: 370px;
+}
+.project h4 {
+    background-color: rgb(228, 222, 198);
+    text-align: center;
+}
+
+/* phần chứng chỉ */
+.certificate {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 330px;
+    left: 30px;
+}
+.certificate ul {
+    padding: 0px;
+}
+.certificate h4 {
+    background-color: rgb(228, 222, 198);
+    text-align: center;
+}
+
+/* phần giải thưởng */
+.prize{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 460px;
+    left: 30px;
+}
+.prize ul {
+    padding: 0;
+}
+.prize h4 {
+    background-color: rgb(228, 222, 198);
+    text-align: center;
+}
+
+/* phần sở thích */
+.interest {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 600px;
+    left: 30px;
+}
+.interest ul {
+    padding: 0px;
+}
+.interest h4 {
+    background-color: rgb(228, 222, 198);
+    text-align: center;
+}
+
+/* phần kỹ năng */
+.skill {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 710px;
+    left: 30px;
+}
+.skill h4{
+    background-color: rgb(228, 222, 198);
+    text-align: center;
+}
+
+/* phần người tham chiếu */
+.reference_person {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 850px;
+    left: 30px;
+}
+.reference_person ul {
+    padding: 0px;
+}
+.reference_person h4 {
+    background-color: c;
+    text-align: center;
+}
+
+
+/* phần cảm ơn */
+#thanks {
+    font-size: 50px;
+    width: 450px;
+    height: 50px;
+    position: absolute;
+    top: 970px;
+    left: 370px;
+}
+#box {
+    background-color: #D9D6CF;
+    position: absolute;
+    width: 720px;
+    height: 30px;
+    left: 50px;
+    bottom: 15px;
+}
+#i1 {
+    position: absolute;
+    width: 328px;
+    border: 2px solid rgb(228, 222, 198);
+    top: 460px;
+    left: 0;
+}
+#i2 {
+    position: absolute;
+    width: 328px;
+    border: 2px solid rgb(228, 222, 198);
+    top: 580px;
+    left: 0;
+}
+#i3 {
+    position: absolute;
+    width: 328px;
+    border: 2px solid rgb(228, 222, 198);
+    top: 710px;
+    left: 0;
+}
+#i4 {
+    position: absolute;
+    width: 328px;
+    border: 2px solid rgb(228, 222, 198);
+    top: 860px;
+    left: 0;
+}
+#i5 {
+    position: absolute;
+    width: 427px;
+    border: 2px solid rgb(228, 222, 198);
+    top: 260px;
+    right: 0;
+}
+#i6 {
+    position: absolute;
+    width: 427px;
+    border: 2px solid rgb(228, 222, 198);
+    top: 430px;
+    right: 0;
+}
+#i7 {
+    position: absolute;
+    width: 427px;
+    border: 2px solid rgb(228, 222, 198);
+    top: 600px;
+    right: 0;
+}
+#i8 {
+    position: absolute;
+    width: 427px;
+    border: 2px solid rgb(228, 222, 198);
+    top: 790px;
+    right: 0;
+}
+#i9 {
+    position: absolute;
+    width: 427px;
+    border: 2px solid rgb(228, 222, 198);
+    top: 910px;
+    right: 0;
+}
+#i10 {
+    transform: rotate(90deg);
+    position: absolute;
+    width: 870px;
+    border: 2px solid rgb(228, 222, 198);
+    top: 560px;
+    right: 13px;
+}
+
+progress {
+    width: 300px;
+    height: 20px;
+}
