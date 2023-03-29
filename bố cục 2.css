@@ -1,0 +1,46 @@
+.grid {
+    display: grid;
+    grid-auto-rows: 100px;
+    row-gap: 10px;
+    column-gap: 10px;
+    border: 1px solid red;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-areas: 
+     " header header header header header header header"
+     " nav nav nav nav nav nav nav"
+     " left left main main main right right"
+     " left left main main main right right"
+     " left left main main main right right"
+     " left left main main main right right"
+     " footer footer footer footer footer footer footer";
+}
+#item-1 {
+    grid-area: header;
+    border: 1px solid green;
+    text-align: center;
+}
+#item-2 {
+    grid-area: nav;
+    border: 1px solid green;
+    text-align: center;
+}
+#item-3 {
+    grid-area: left;
+    border: 1px solid green;
+    text-align: center;
+}
+#item-4 {
+    grid-area: main;
+    border: 1px solid green;
+    text-align: center;
+}
+#item-5 {
+    grid-area: right;
+    border: 1px solid green;
+    text-align: center;
+}
+#item-6 {
+    grid-area: footer;
+    border: 1px solid green;
+    text-align: center;
+}
