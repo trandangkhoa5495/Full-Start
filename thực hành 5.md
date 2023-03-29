@@ -1,0 +1,29 @@
+BEGIN
+     INPUT NHẬP ĐIỂM
+      IF ĐIỂM >= 75 
+    DISPLAY LOẠI A
+END IF
+
+BEGIN
+     INPUT NHẬP ĐIỂM
+      IF ĐIỂM 60 < 75 
+    DISPLAY LOẠI A
+END IF
+
+BEGIN
+     INPUT NHẬP ĐIỂM
+      IF ĐIỂM 45 < 60 
+    DISPLAY LOẠI A
+END IF
+
+BEGIN
+     INPUT NHẬP ĐIỂM
+      IF ĐIỂM 34 < 45
+    DISPLAY LOẠI A
+END IF
+
+BEGIN
+     INPUT NHẬP ĐIỂM
+      IF ĐIỂM <35
+    DISPLAY LOẠI A
+END IF
