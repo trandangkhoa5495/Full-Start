@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<body>
+    <script>
+        console.log("%c Hello", "font-size:100px; color:red" );
+        // console.error()
+        console.error('Error found');
+
+        // console.warn()
+        console.warn('Warning!');
+
+        // console.clear()
+        console.clear()
+
+        // console.time() & console.timeEnd()
+        console.time('timer');
+        const hello = function(){
+        console.log('Hello Console!');
+        }
+        const bye = function(){
+        console.log('Bye Console!');
+        }
+        hello(); // calling hello();
+        bye(); // calling bye();
+        console.timeEnd('timer');
+
+        // console.table()
+        console.table({a: 555, b: 2,c: 3});
+
+        // console.count()
+        for(let i=0; i<3; i++){console.count(i);}   
+
+        // console.group() & console.groupEnd()
+        console.group('group1');
+        console.warn('warning');
+        console.error('error');
+        console.log('I belong to a group');
+        console.groupEnd();
+        console.log('I dont belong to any group');
+    </script>
+</body>
+</html>
