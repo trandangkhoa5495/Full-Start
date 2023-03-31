@@ -1,0 +1,67 @@
+.change_money{
+    font-size: 20px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    border: 2px solid red;
+    text-align: center;
+    
+}
+
+.amount {
+    margin: 20px;
+}
+
+.amount input {
+    width: 250px;
+    height: 35px;
+    font-size: 30px;
+}
+
+.money {
+    margin: 20px;
+
+}
+
+.money select {
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.to_currency {
+    margin: 20px;
+}
+
+.to_currency select {
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+
+}
+
+.submit {
+    margin: 20px;
+
+}
+.submit button {
+    color: white;
+    background-color: blueviolet;
+    width: 120px;
+    height: 40px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+}
+
+.amount_of_money input{
+    width: 250px;
+    height: 35px;
+    font-size: 30px;
+}
+
+.amount_of_money {
+    margin: 20px;
+}
+
+
+

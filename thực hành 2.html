@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./thực hành 2.css">
+</head>
+<body>
+    <div class="change_money">
+        <div class="amount">
+            <label for="amount">Amount</label> <br>
+            <input type="number" placeholder="nhập số tiền" id="amount">
+        </div>
+        
+        <div class="money">
+            <label for="money">From Curency</label><br>
+            <select name="fromcurrency" id="fromcurrency">   
+                <option value="vnd">VND</option>    
+                <option value="usd">USD</option> 
+            </select> 
+        </div>
+        
+        <div class="to_currency">
+            <label for="to_currency">To Currency</label><br>
+            <select name="to_Curency">
+                <option value="vnd">VND</option>
+                <option value="usd">USD</option>
+            </select>
+        </div>
+
+        <div class="amount_of_money">
+            <label for="amount_of_money">Amount Of Money</label> <br>
+            <input type="number" placeholder="hiển thị số tiền" id="amount_of_money">
+        </div>
+
+        <div class="submit"> <br>
+            <button type="submit">CONVERT</button>
+        </div>
+    </div>
+    <script src="./thực hành 2.js"></script>
+</body>
+</html> 
