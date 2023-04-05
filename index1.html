@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table id="table"></table>
+    <script>
+        let contentable = "";
+        for (i=1;i<=10;i++){
+            contentable += "<tr>";
+            for (k=2;k<=10;i++){
+                contentable += `<td> ${k} x ${i} = ${ i * k}</td>`;
+            } contentable += "</tr>"
+        }
+
+        const table = document.querySelector("#table");
+        table.innerHTML == contentable;
+    </script>
+</body>
+</html>
