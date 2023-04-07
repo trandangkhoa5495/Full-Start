@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .style1 {
+        border-radius: 10px;
+        padding: 5px;
+
+        width: 300px;
+        border: 3px solid;
+        border-color: green green purple purple;
+      }
+      .style1 input {
+        margin: 5px 0px;
+      }
+
+      table {
+        border: 2px solid green;
+      }
+
+      table td {
+        border: 2px solid green;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- bài 1 -->
+    <div class="style1">
+      <p>Bài 1:</p>
+      <input type="text" id="import" placeholder="nhập số" />
+      <input type="text" id="results" placeholder="kết quả" />
+      <button onclick="sub()">SUBMIT</button>
+    </div>
+    <br />
+    <br />
+
+    <!-- bài 2 -->
+
+    <div class="style1">
+      <p>Bài 2:</p>
+      <input type="text" id="import1" placeholder="nhập số" />
+      <input type="text" id="results1" placeholder="kết quả" />
+      <button onclick="sub1()">SUBMIT</button>
+    </div>
+    <br />
+    <br />
+    <!-- bài 9 -->
+
+    <div class="style1">
+      <p>Bài 9:</p>
+      <input type="text" id="import9" placeholder="nhập số a" />
+      <input type="text" id="import91" placeholder="nhập số b" />
+      <input type="text" id="results9" placeholder="kết quả" />
+      <button onclick="sub9()">SUBMIT</button>
+    </div>
+    <br />
+    <br />
+    <h3><b>LUYỆN TẬP 2</b></h3>
+    <br />
+
+    <!-- bài 1 -->
+    <div class="style1">
+      <p>Bài 1:</p>
+      <input type="text" id="import11" placeholder="nhập số" />
+      <button onclick="add1()">ADD</button>
+      <button onclick="sub11()">SUBMIT</button>
+      <table id="table" cellpadding="20"></table>
+    </div>
+    <br />
+    <br />
+
+    <!-- bài làm thêm -->
+
+    <div class="style1">
+      <p>Bài làm thêm:</p>
+      <input type="text" id="import12" placeholder="nhập số" />
+      <button onclick="add12()">ADD</button>
+      <button onclick="sub12()">SUBMIT</button>
+      <table id="table2" cellpadding="20">
+        <tr>
+          <th>STT</th>
+          <th>Name</th>
+          <th>Action</th>
+        </tr>
+      </table>
+    </div>
+
+    <script src="./index2.js"></script>
+  </body>
+</html>
