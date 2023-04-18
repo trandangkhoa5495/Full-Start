@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./CRUD.css" />
+  </head>
+  <body>
+    <header class="head">
+      <img src="./—Pngtree—coffee vector banner material_860159.png" alt="" />
+    </header>
+
+    <main>
+      <div id="conten">
+        <h1>SẢN PHẨM NỔI BẬT</h1>
+      </div>
+      <div class="search">
+        <input type="text" id="search" />
+        <button onclick="search()">SEARCH</button>
+      </div>
+      <div class="add">
+        <button onclick="handleadd()">+ Add Product</button>
+      </div>
+      <div class="form">
+        <div>
+          <label for="avatar">Avatar</label>
+          <input type="file" name="avatar" id="avatar" />
+        </div>
+        <div>
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div>
+          <label for="price">Price</label>
+          <input type="text" name="price" id="price" />
+        </div>
+        <button onclick="save()">SAVE</button>
+      </div>
+
+      <div class="formedit">
+        <div>
+          <label for="id">ID</label>
+          <input type="text" name="id" id="id" />
+        </div>
+        <div>
+          <label for="avatar">Avatar</label>
+          <input type="file" name="avatar" id="avatar" />
+        </div>
+        <div>
+          <label for="name1">Name</label>
+          <input type="text" name="name1" id="name1" />
+        </div>
+        <div>
+          <label for="price1">Price</label>
+          <input type="text" name="price1" id="price1" />
+        </div>
+        <button onclick="save1()">SAVE</button>
+      </div>
+      <div>
+        <table>
+          <tr>
+            <th>NO</th>
+            <th>Avatar</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Action</th>
+          </tr>
+
+          <tr>
+            <td>1</td>
+            <td><img src="./ava1.jpg" /></td>
+            <td>Orange Juice</td>
+            <td>35000</td>
+            <td>
+              <button class="edit" onclick="handleedit()">Edit</button>
+              <button class="delete" onclick="handledelete()">Delete</button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </main>
+    <script src="./CRUD.js"></script>
+  </body>
+</html>
