@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./index.css">
+    <body>
+      <header>
+        <i class="fa-solid fa-bars" onclick="menu()"></i>
+        <nav class="navi">
+          <div class="logo"><img src="./logo.png" alt="logo"></div>
+          <ul>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    <form class="pass">
+        <input type="text" placeholder="Username" id="username"> <br>
+        <input type="text" name=""  placeholder="Passwork" id="pass"/> <br>
+        <input type="email" placeholder="Email" id="email"> <br>
+        <button >SUBMIT</button>
+        <i class="fa-solid fa-eye" onclick="show()"></i>
+        <i class="fa-solid fa-eye-slash" onclick="show()"></i>  
+    </form>
+    <script src="./index.js"></script>
+  </body>
+</html>
