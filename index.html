@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div id="img">
+        <img src="./1680x756.png" alt="backgroud" />
+      </div>
+
+      <div class="function1">
+        <div class="function">
+          <button>Mẫu xe</button>
+          <button>Dịch vụ</button>
+          <button>Khám phá</button>
+          <button>Đăng nhập</button>
+          <button>Đăng ký</button>
+          <button onclick="search()">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <button>
+            <i class="fa-solid fa-location-dot"></i>
+          </button>
+          <input type="text" id="search" />
+        </div>
+
+        <div id="logo">
+          <img src="./logo.png" alt="logo" />
+        </div>
+
+        <div id="content">
+          <p>Sheer Driving <b>Pleasure</b></p>
+        </div>
+      </div>
+      <h1>READY FOR SUMMER</h1>
+    </header>
+
+    <main>
+      <div class="seri">
+        <div class="the7">
+          <img src="./the 7.png" alt="" />
+          <div class="the71">
+            <p>THE X3</p>
+            <button>Tìm hiểu thêm</button>
+          </div>
+        </div>
+        <div class="the7">
+          <img src="./the x.png" alt="" />
+          <div class="the71">
+            <p>THE X7</p>
+            <button>Tìm hiểu thêm</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="button">
+        <button>
+          <i class="fa-regular fa-envelope"></i> <br />Đăng ký nhận thông tin
+        </button>
+        <button>
+          <i class="fa-regular fa-envelope"></i> <br />Đặt lịch lái thử
+        </button>
+        <button>
+          <i class="fa-regular fa-envelope"></i> <br />Đăng ký lái thử
+        </button>
+        <button>
+          <i class="fa-regular fa-envelope"></i> <br />Showroom BMW
+        </button>
+      </div>
+
+      <div class="function2">
+        <button>Mẫu xe</button>
+        <button>kiểu loại</button>
+        <button onclick="addnewproduct()">Thêm mới sản phẩm</button>
+        <div class="form">
+          <div>
+            <label for="avatar">Avatar</label>
+            <input type="file" name="avatar" id="avatar" />
+          </div>
+          <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div>
+            <label for="engine">Engine</label>
+            <input type="text" name="engine" id="engine" />
+          </div>
+          <div>
+            <label for="price">Price</label>
+            <input type="text" name="price" id="price" />
+          </div>
+          <div>
+            <button onclick="save()">SAVE</button>
+          </div>
+        </div>
+
+        <div class="form1">
+          <div>
+            <label for="id1">NO</label>
+            <input type="text" name="id1" id="id1" />
+          </div>
+          <div>
+            <label for="avatar1">Avatar</label>
+            <input type="text" name="avatar1" id="avatar1" />
+          </div>
+          <div>
+            <label for="name1">Name</label>
+            <input type="text" name="name1" id="name1" />
+          </div>
+          <div>
+            <label for="engine1">Engine</label>
+            <input type="text" name="engine1" id="engine1" />
+          </div>
+          <div>
+            <label for="price1">Price</label>
+            <input type="text" name="price1" id="price1" />
+          </div>
+          <div>
+            <button onclick="save1()">SAVE</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="function2">
+        <button>Tất cả</button>
+        <button>X</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>7</button>
+        <button>8</button>
+      </div>
+
+      <div class="product">
+        <div class="product1">
+          <div id="picture">
+            <img src="./ca1.png" />
+          </div>
+          <p>No: 1</p>
+          <p>Name: BMW X3</p>
+          <p>Engine: Xăng</p>
+          <p>Price: 1799000</p>
+          <button class="edit" onclick="handleedit() ">Edit</button>
+          <button class="delete" onclick="handledelete()">Delete</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>product trần khoa</p>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
