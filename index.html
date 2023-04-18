@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="input1">
+      <input type="text" id="add" />
+      <button onclick="search()">Tìm kiếm</button>
+      <br />
+      <br />
+      <button onclick="handletogle()">Create user</button>
+    </div>
+    <div class="form">
+      <div>
+        <label for="avatar">Avatar</label>
+        <input type="file" id="avatar" name="avatar" />
+      </div>
+      <div>
+        <label for="firt-name">Firt name</label>
+        <input type="text" id="firtname" name="firt-name" />
+      </div>
+      <div>
+        <label for="last-name">Last name</label>
+        <input type="text" id="lastname" name="last-name" />
+      </div>
+      <div>
+        <label for="Username">Username</label>
+        <input type="text" id="Username" name="Username" />
+      </div>
+      <button onclick="save()">Save</button>
+    </div>
+
+    <table>
+      <tr>
+        <th>NO</th>
+        <th>Avatar</th>
+        <th>Firt</th>
+        <th>Last</th>
+        <th>Username</th>
+        <th>Action</th>
+      </tr>
+
+      <tr>
+        <td>1</td>
+        <td><img src="./ava12.jpg" /></td>
+        <td>Nhàn</td>
+        <td>Thái</td>
+        <td>thaithinhan</td>
+        <td>
+          <button id="edit">Edit</button>
+          <button id="delete">Delete</button>
+        </td>
+      </tr>
+    </table>
+    <script src="./index.js"></script>
+  </body>
+</html>
