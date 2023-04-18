@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <form class="pass">
+      <div class="form-input">
+        <label for="">Email</label>
+        <input type="text" placeholder="Email" id="email" />
+        <p id="erroremail"></p>
+      </div>
+
+      <div class="form-input">
+        <label for="">Password</label>
+        <input type="text" name="" placeholder="Passwork" id="pass" />
+        <i class="fa-solid fa-eye" onclick="show()"></i>
+        <i class="fa-solid fa-eye-slash" onclick="show()"></i>
+        <p id="errorpassword"></p>
+      </div>
+
+      <div class="form-input">
+        <label for="">Repeat Password</label>
+        <input type="text" placeholder="Repeat Passwork" id="Repeatpass" />
+        <i class="fa-solid fa-eye" id="fa-eye" onclick="show1()"></i>
+        <i
+          class="fa-solid fa-eye-slash"
+          id="fa-eye-slash"
+          onclick="show1()"
+        ></i>
+        <p id="errorepeatpassword"></p>
+      </div>
+      <div class="form-input">
+        <label for="">User Name</label>
+        <input type="text" placeholder="User Name" id="username" />
+        <p id="errorusername"></p>
+      </div>
+      <div class="form-input">
+        <label for="">Address</label>
+        <input type="text" placeholder="Address" id="address" />
+        <p id="erroraddress"></p>
+      </div>
+
+      <br />
+      <button>SUBMIT</button>
+      <button>RESET</button>
+    </form>
+    <script src="./index.js"></script>
+  </body>
+</html>
