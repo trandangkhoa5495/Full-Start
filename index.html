@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <style>
+      .class1 {
+        border: 2px solid green;
+        border-radius: 10px;
+        padding: 10px;
+        padding: 15px;
+      }
+      #btn-update {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- bài 1 -->
+    <div class="class1">
+      <input type="text" id="prime" />
+      <button onclick="isprime()">SUBMIT</button>
+    </div>
+    <br /><br />
+
+    <!-- bài 2 -->
+    <div class="class1">
+      <input type="text" id="feet" placeholder="số mét" />
+      <input type="text" id="feet1" placeholder=" kết quả" />
+      <button onclick="foottometter()">SUBMIT</button>
+    </div>
+    <br />
+    <br />
+
+    <!-- bài 3-->
+    <div class="class1">
+      <input type="text" id="add-product" placeholder="add new product" />
+      <button onclick="handleAdd()">Add</button>
+      <button id="btn-update">Update</button>
+      <br />
+      <hr />
+      <table cellpadding="20">
+        <tr>
+          <th>STT</th>
+          <th>PRODUCTS</th>
+          <th colspan="2">ACTION</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Sony Xperia</td>
+          <td><button onclick="handleEdit()">Edit</button></td>
+          <td><button onclick="handleDelete()">Delete</button></td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
